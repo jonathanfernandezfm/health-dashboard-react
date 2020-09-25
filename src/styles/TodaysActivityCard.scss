@@ -1,0 +1,30 @@
+$card-img-width: 170px;
+
+.todays-card {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 5px;
+	border-radius: 20px;
+
+	.card-img {
+		width: $card-img-width;
+		margin-top: -80px;
+	}
+
+	.card-text {
+		margin-top: 20px;
+		text-align: center;
+		width: 80%;
+		color: #80868b;
+	}
+	.value {
+		padding: 10px 40px;
+		border-radius: 10px;
+		text-align: center;
+		margin: 20px 10px 0 0;
+		background-color: white;
+		font-weight: 800;
+	}
+}

@@ -1,0 +1,51 @@
+$border-radius: 20px;
+$search-bar-width: 750px;
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 60px 0 0;
+
+	.search-bar {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: $search-bar-width;
+		padding: 15px 20px;
+		border-radius: $border-radius;
+		border: 1.5px solid #e9e9e9;
+
+		.search-icon {
+			display: flex;
+			font-size: 24px;
+		}
+
+		#search-input {
+			border: none;
+			outline: none;
+			padding: 0 20px;
+			font-family: "Montserrat", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+				"Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+			font-weight: 600;
+			font-size: 14px;
+			width: 100%;
+			height: 100%;
+		}
+
+		&:focus-within {
+			// border: 2px solid #d8d8d8;
+			box-shadow: 0 0 0 0.1rem #d8d8d8;
+		}
+	}
+
+	.menu-icons-container {
+		display: flex;
+		gap: 30px;
+		font-size: 26px;
+
+		* {
+			cursor: pointer;
+		}
+	}
+}

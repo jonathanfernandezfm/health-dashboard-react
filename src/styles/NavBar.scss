@@ -1,0 +1,92 @@
+$logo-size: 50px;
+$bottom-image-size: 250px;
+$navbar-width: 300px;
+$border-radius: 10px;
+
+.navbar {
+	width: $navbar-width;
+	height: calc(100vh - 80px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border-right: 2px #e5e9ec solid;
+	padding-bottom: 40px;
+
+	.logo-container {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin-left: -20px;
+
+		.logo-icon {
+			width: $logo-size;
+			height: $logo-size;
+			border-radius: $border-radius;
+			background-color: gray;
+		}
+
+		.logo-text {
+			font-weight: 800;
+		}
+	}
+
+	.navbar-buttons-container {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		margin-top: 20px;
+
+		.button-container {
+			display: flex;
+			gap: 20px;
+			padding: 10px 30px;
+			border-radius: $border-radius;
+			color: #b6bdc4;
+			transition: all 0.3s;
+
+			&:hover {
+				cursor: pointer;
+				color: #38344f;
+			}
+
+			&.active {
+				color: inherit;
+			}
+		}
+	}
+
+	.bottom-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.bottom-img {
+			width: $bottom-image-size;
+		}
+
+		.img-text {
+			text-align: center;
+			color: #84858f;
+		}
+
+		.button-settings {
+			font-family: "Montserrat", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+				"Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+			font-weight: 600;
+			color: white;
+			background-color: #38344f;
+			padding: 20px 40px;
+			outline: none;
+			border: none;
+			border-radius: $border-radius;
+			margin-top: 25px;
+			transition: all 0.3s;
+
+			&:hover {
+				cursor: pointer;
+				background-color: #312d44;
+			}
+		}
+	}
+}
