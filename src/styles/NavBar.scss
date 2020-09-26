@@ -4,6 +4,7 @@ $navbar-width: 300px;
 $border-radius: 10px;
 
 .navbar {
+	position: fixed;
 	width: $navbar-width;
 	height: calc(100vh - 80px);
 	display: flex;

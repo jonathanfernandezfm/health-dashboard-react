@@ -1,0 +1,65 @@
+.heart-rate-main-card {
+	// border: 1px gray solid;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 0px 30px -20px rgba(0, 0, 0, 0.75);
+	background: linear-gradient(
+		135deg,
+		rgba(255, 251, 215, 0.3) 70%,
+		rgba(255, 188, 149, 0.4) 100%
+	);
+	margin-top: 30px;
+
+	.title-graph-container {
+		padding: 30px 30px;
+		// border: 1px gray solid;
+		border-radius: 25px;
+		width: 75%;
+		display: flex;
+		flex: 1;
+		background-color: white;
+
+		.title-container {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			justify-content: center;
+			flex: 1;
+			margin-left: 20px;
+
+			.heart-icon {
+				font-size: 26px;
+				display: flex;
+			}
+
+			.heart-title {
+				font-size: 22px;
+				font-weight: 700;
+			}
+		}
+
+		.graph-heart-rate {
+		}
+	}
+
+	.bpm-today-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+		height: 100%;
+		overflow: hidden;
+
+		.bpm-today {
+			font-size: 38px;
+		}
+
+		.bpm-today-text {
+			font-size: 14px;
+			text-align: center;
+			color: #80868b;
+			width: 80%;
+		}
+	}
+}

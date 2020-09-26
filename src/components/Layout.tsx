@@ -11,7 +11,7 @@ export const Layout = ({ children }: LayoutProps) => {
 	return (
 		<div className="layout">
 			<NavBar />
-			{children}
+			<div className="layout-content">{children}</div>
 		</div>
 	);
 };

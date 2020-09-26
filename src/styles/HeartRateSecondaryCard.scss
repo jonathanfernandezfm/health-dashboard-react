@@ -1,0 +1,29 @@
+.heart-rate-second-card {
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.35);
+	padding: 30px 50px 30px 30px;
+	border-radius: 20px;
+
+	.icon {
+		font-size: 24px;
+		display: flex;
+		box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.15);
+		padding: 20px;
+		border-radius: 10px;
+	}
+
+	.info-container {
+		display: flex;
+		flex-direction: column;
+		margin-left: 30px;
+
+		.value {
+			font-size: 28px;
+		}
+		.label {
+			font-size: 14px;
+			color: #abb0b5;
+		}
+	}
+}

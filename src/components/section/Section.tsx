@@ -5,12 +5,13 @@ import "../../styles/Section.scss";
 
 interface SectionProps {
 	children: ReactNode;
+	title: string;
 }
 
-export const Section = ({ children }: SectionProps) => {
+export const Section = ({ children, title }: SectionProps) => {
 	return (
 		<div className="section">
-			<SectionHeader>Today's activity</SectionHeader>
+			<SectionHeader>{title}</SectionHeader>
 			{children}
 		</div>
 	);

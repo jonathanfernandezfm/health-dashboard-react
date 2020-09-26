@@ -1,4 +1,9 @@
 .layout {
 	display: flex;
 	margin-top: 40px;
+
+	.layout-content {
+		margin-left: 300px;
+		width: 100%;
+	}
 }
