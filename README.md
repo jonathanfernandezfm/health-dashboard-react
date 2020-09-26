@@ -2,6 +2,8 @@ This project was developed by **Jonathan Fernández Mertanen** using a design fr
 
 Only objective with it is to practice React programming.
 
+Demo: [Github.io](https://jonathanfernandezfm.github.io/health-dashboard-react/)
+
 # Health application dashboard
 
 ## Scripts
