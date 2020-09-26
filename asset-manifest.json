@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/jonathanfernandezfm.github.io/health-dashboard-react/static/css/main.01ee4232.chunk.css",
-    "main.js": "/jonathanfernandezfm.github.io/health-dashboard-react/static/js/main.60767ca4.chunk.js",
-    "main.js.map": "/jonathanfernandezfm.github.io/health-dashboard-react/static/js/main.60767ca4.chunk.js.map",
-    "runtime-main.js": "/jonathanfernandezfm.github.io/health-dashboard-react/static/js/runtime-main.a47f6f81.js",
-    "runtime-main.js.map": "/jonathanfernandezfm.github.io/health-dashboard-react/static/js/runtime-main.a47f6f81.js.map",
-    "static/js/2.b29a53c1.chunk.js": "/jonathanfernandezfm.github.io/health-dashboard-react/static/js/2.b29a53c1.chunk.js",
-    "static/js/2.b29a53c1.chunk.js.map": "/jonathanfernandezfm.github.io/health-dashboard-react/static/js/2.b29a53c1.chunk.js.map",
-    "index.html": "/jonathanfernandezfm.github.io/health-dashboard-react/index.html",
-    "precache-manifest.1b24954e3dfe4d4329b1975810b2286e.js": "/jonathanfernandezfm.github.io/health-dashboard-react/precache-manifest.1b24954e3dfe4d4329b1975810b2286e.js",
-    "service-worker.js": "/jonathanfernandezfm.github.io/health-dashboard-react/service-worker.js",
-    "static/css/main.01ee4232.chunk.css.map": "/jonathanfernandezfm.github.io/health-dashboard-react/static/css/main.01ee4232.chunk.css.map",
-    "static/js/2.b29a53c1.chunk.js.LICENSE.txt": "/jonathanfernandezfm.github.io/health-dashboard-react/static/js/2.b29a53c1.chunk.js.LICENSE.txt",
-    "static/media/calendar.PNG": "/jonathanfernandezfm.github.io/health-dashboard-react/static/media/calendar.63f30793.PNG",
-    "static/media/girl-running.PNG": "/jonathanfernandezfm.github.io/health-dashboard-react/static/media/girl-running.41d9cca5.PNG",
-    "static/media/shoes.PNG": "/jonathanfernandezfm.github.io/health-dashboard-react/static/media/shoes.30cc12b7.PNG",
-    "static/media/stairs.PNG": "/jonathanfernandezfm.github.io/health-dashboard-react/static/media/stairs.60b3bff8.PNG"
+    "main.css": "/repository-name/static/css/main.bccf0be1.chunk.css",
+    "main.js": "/repository-name/static/js/main.f7def389.chunk.js",
+    "main.js.map": "/repository-name/static/js/main.f7def389.chunk.js.map",
+    "runtime-main.js": "/repository-name/static/js/runtime-main.ed4b1225.js",
+    "runtime-main.js.map": "/repository-name/static/js/runtime-main.ed4b1225.js.map",
+    "static/js/2.ef6eb080.chunk.js": "/repository-name/static/js/2.ef6eb080.chunk.js",
+    "static/js/2.ef6eb080.chunk.js.map": "/repository-name/static/js/2.ef6eb080.chunk.js.map",
+    "index.html": "/repository-name/index.html",
+    "precache-manifest.22ba957d596f31aa5d5ac6172ccdcf57.js": "/repository-name/precache-manifest.22ba957d596f31aa5d5ac6172ccdcf57.js",
+    "service-worker.js": "/repository-name/service-worker.js",
+    "static/css/main.bccf0be1.chunk.css.map": "/repository-name/static/css/main.bccf0be1.chunk.css.map",
+    "static/js/2.ef6eb080.chunk.js.LICENSE.txt": "/repository-name/static/js/2.ef6eb080.chunk.js.LICENSE.txt",
+    "static/media/calendar.PNG": "/repository-name/static/media/calendar.63f30793.PNG",
+    "static/media/girl-running.PNG": "/repository-name/static/media/girl-running.41d9cca5.PNG",
+    "static/media/shoes.PNG": "/repository-name/static/media/shoes.30cc12b7.PNG",
+    "static/media/stairs.PNG": "/repository-name/static/media/stairs.60b3bff8.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.a47f6f81.js",
-    "static/js/2.b29a53c1.chunk.js",
-    "static/css/main.01ee4232.chunk.css",
-    "static/js/main.60767ca4.chunk.js"
+    "static/js/runtime-main.ed4b1225.js",
+    "static/js/2.ef6eb080.chunk.js",
+    "static/css/main.bccf0be1.chunk.css",
+    "static/js/main.f7def389.chunk.js"
   ]
 }
